@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lange="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"content" content="width=device-width, initial-scale=1.0">
+    <title> Levantar pedido</title>
+</head>
+<body bgcolor="orange"></body>
+
+    <h1>Haz tu pedido aquí</h1>
+
+    <form action ="pedido.js">
+        <label for="Nombre">A nombre de quien se entrega el pedido</label><br>
+        <input type="text" id="Nombre" placeholder="Nombre"> <br>
+        <br>
+        <label for="personas">Para cuantas personas es el pastel</label><br>
+        <input type="number" name="personas" id="personas" placeholder="4">
+        <br><br>
+
+        <p>Sabor de pastel<p><br>
+            <label for="Pastel">Chocolate</label>
+            <input type="checkbox" name="Pastel" id="Pastel"><br>
+            <label for="Pastel">Vainilla</label>
+            <input type="checkbox" name="Pastel" id="Pastel"><br>
+            <label for="Pastel">Limón</label>
+            <input type="checkbox" name="Pastel" id="Pastel"><br>
+            <label for="Pastel">Zanahoria</label>
+            <input type="checkbox" name="Pastel" id="Pastel"><br>
+            <br><br>
+        
+        <p> Sabor de relleno</p>
+            <label for="relleno">Mermelada</label>
+            <input type="radio" name="relleno" id="relleno" value="Mermelada"><br>
+            <label for="relleno">Ganache</label>
+            <input type="radio" name="relleno" id="relleno" value="Ganache"><br>
+            <label for="relleno">Crema para batir</label>
+            <input type="radio" name="relleno" id="Relleno" value="Crema para batir"><br>
+    <br><br>
+        <p> Sabor de la cubierta</p>
+        <label for="cubierta">Caramelo suave</label>
+        <input type="radio" name="cubierta" id="cubierta" value="Caramelo suave"><br>
+        <label for="cubierta">Frutas </label>
+        <input type="radio" name="cubierta" id="cubierta" value="Frutas "><br>
+        <label for="cubierta">Fondant </label>
+        <input type="radio" name="cubierta" id="cubierta" value="Fondant"><br>
+        <label for="cubierta">Chantilly</label>
+        <input type="radio" name="cubierta" id="cubierta" value="Chantilly"><br>
+        <label for="cubierta">Merengue</label>
+        <input type="radio" name="cubierta" id="cubierta" value="Merengue"><br>
+    <br><br>
+
+    <label for="Dedicatoria">¡Escríbele una dedicatoria!</label><br>
+    <input type="text" id="Dedicatoria" placeholder="Ej. Felíz cumpleaños"> <br>
+
+    <p>¿Para que día quieres tu pastel?</p>
+    <input type="date" name="date1" id="date1"><br>
+    <br><br>
+    
+    <input type="reset">
+    <input type="submit">
+        <br><br>
+    </form>
+
+</body>
+</html>
